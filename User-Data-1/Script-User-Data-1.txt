@@ -1,5 +1,5 @@
-#!/bin/bash -ex
+#!/bin/bash
 sudo yum install -y httpd php wget
-sudo wget https://raw.githubusercontent.com/pandeymahendra/aws/master/index.php -P /var/www/html
+sudo wget https://github.com/amit873/AWS-User-Data/blob/master/User-Data-1/index.php -P /var/www/html
 sudo systemctl start httpd
 sudo systemctl enable httpd
