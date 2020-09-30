@@ -4,7 +4,7 @@
 <h1>
 This is a Demo Web Site
 <br>
-<IMG SRC="https://github.com/amit873/AWS-User-Data/blob/master/Amit-Kumar-Gupta-Logo.png" ALT="Demo Logo"><br>
+<IMG SRC="https://raw.githubusercontent.com/amit873/AWS-User-Data/master/Amit-Kumar-Gupta-Logo.png" ALT="Demo Logo"><br>
 <center>
 <?php
 $eip = file_get_contents('http://169.254.169.254/latest/meta-data/public-ipv4');
