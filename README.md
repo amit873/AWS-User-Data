@@ -4,4 +4,4 @@
 
 
 ## Run URL - 
-http://<Public-IP>/index.php
+http://Public-IP/index.php
